@@ -2,6 +2,9 @@ package-as: Polestar
 enable-nolib-creation: no
 
 ignore:
+  - .github
+  - tests
+  - tools
   - translations
   - README.md
   - THIRD_PARTY.md

@@ -1,0 +1,16 @@
+name: Verify navigation data
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  navigation-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Lua navigation data
+        run: python3 -m unittest discover -s tests -v

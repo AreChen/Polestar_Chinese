@@ -12,3 +12,5 @@ Thumbs.db
 .test/
 .release/
 *.tmp
+__pycache__/
+*.py[cod]
