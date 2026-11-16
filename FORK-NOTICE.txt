@@ -1,0 +1,19 @@
+Polestar Chinese Community Fix (unofficial)
+Release: 0.3.7.2-zh.1-navfix.1 (beta)
+
+This is a community fork of Polestar by 0xFitz and the Polestar
+contributors, with Chinese localization by ray929 and contributors.
+Original project: https://github.com/fitzforge/polestar
+Chinese version: https://github.com/ray929/Polestar_Chinese
+This fork's source: https://github.com/AreChen/Polestar_Chinese
+
+On 2026-11-16, AreChen re-encoded the generated navigation data using
+equivalent Lua decimal escapes to prevent UTF-8 corruption, and changed
+the main addon's title, author and website metadata to identify this fork.
+The other addon folders are included from the Chinese release. Their
+matching in-game TOC version remains 0.3.7.2 for compatibility checks.
+
+The original license and attribution files are retained. This fork is
+distributed under GPL-3.0-only; see LICENSE and THIRD_PARTY.md for credits.
+It is independent and is not endorsed by the original authors or Blizzard.
+The beta has not yet been verified in the game client.
